@@ -14,7 +14,7 @@
 
 ## 1. Project Overview
 
-**Algox** is an interactive, developer-grade algorithm and data structure visualizer built for software development placement preparation. It combines mathematically rigorous algorithm implementations with real-time step snapshots, operation metrics, pseudocode highlighting, and side-by-side algorithm comparison.
+**Algox** is an interactive, developer-grade algorithm and data structure visualizer created by Kalpit. It combines mathematically rigorous algorithm implementations with real-time step snapshots, operation metrics, pseudocode highlighting, and side-by-side algorithm comparison.
 
 Unlike superficial animations or timer-polluted prototypes, **Algox** decouples algorithmic computation from UI rendering using a deterministic state snapshot engine. Every operation count—comparisons, swaps, and array writes—reflects actual execution events rather than synthetic timers or estimated formulas.
 

@@ -33,7 +33,7 @@ export const AboutView: React.FC = () => {
           Project Overview & Motivation
         </h2>
         <p className="text-sm text-slate-300 leading-relaxed">
-          <strong>Algox</strong> is a comprehensive algorithm and data structure visualization platform developed as a portfolio capstone for an MCA student preparing for software development placements.
+          <strong>Algox™</strong> is a comprehensive algorithm and data structure visualization platform developed by Kalpit to help engineers and students master DSA intuitively.
         </p>
         <p className="text-sm text-slate-300 leading-relaxed">
           Traditional DSA learning relies heavily on static diagrams and abstract trace tables, which fail to convey how pointers, invariants, and partitioned subarrays transition during dynamic program execution. Algox bridges this conceptual gap by delivering mathematically accurate, step-by-step interactive animations coupled with live metric tracking and pseudocode line inspection.

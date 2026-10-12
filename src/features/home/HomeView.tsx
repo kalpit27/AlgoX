@@ -82,7 +82,7 @@ export const HomeView: React.FC = () => {
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl">
-            A developer-grade platform designed for MCA software placements. Explore step-by-step state snapshots, compare algorithmic invariants, and master time & space complexities.
+            A developer-grade platform created by Kalpit. Explore step-by-step state snapshots, compare algorithmic invariants, and master time & space complexities.
           </p>
 
           <div className="flex flex-wrap items-center gap-3 pt-2">

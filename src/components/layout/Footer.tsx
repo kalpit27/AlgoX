@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Terminal, Code2 } from 'lucide-react'
+import { Code2 } from 'lucide-react'
 
 export const Footer: React.FC = () => {
   return (
@@ -21,10 +21,6 @@ export const Footer: React.FC = () => {
             <p className="text-xs text-slate-400 max-w-md leading-relaxed">
               Understand the logic. Visualize the process. An interactive developer platform designed to master Data Structures and Algorithms with step-by-step playback, real execution metrics, and mathematical accuracy.
             </p>
-            <div className="flex items-center gap-2 text-xs text-slate-400 pt-1">
-              <Terminal size={14} className="text-sky-400" />
-              <span>Built for MCA Software Placement Preparation</span>
-            </div>
           </div>
 
           {/* Quick Visualizers */}
@@ -86,7 +82,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="mt-8 pt-6 border-t border-[#1C263B] flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
-          <p>© {new Date().getFullYear()} Algox. All algorithms implemented natively.</p>
+          <p>© {new Date().getFullYear()} Algox™ by Kalpit. All algorithms implemented natively.</p>
           <p className="flex items-center gap-1">
             Deterministic step snapshots • Zero external algorithm dependencies
           </p>
