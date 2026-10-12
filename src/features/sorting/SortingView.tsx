@@ -36,9 +36,10 @@ const ALGORITHM_TABS: { id: SortingAlgorithmId; label: string }[] = [
 export const SortingView: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams()
   const initialAlgo = (searchParams.get('algo') as SortingAlgorithmId) || 'bubble'
+  const initialMode = (searchParams.get('mode') as 'single' | 'compare') || 'single'
 
   const [selectedAlgo, setSelectedAlgo] = useState<SortingAlgorithmId>(initialAlgo)
-  const [viewMode, setViewMode] = useState<'single' | 'compare'>('single')
+  const [viewMode, setViewMode] = useState<'single' | 'compare'>(initialMode)
   const [arraySize, setArraySize] = useState<number>(18)
   const [isModalOpen, setIsModalOpen] = useState(false)
 

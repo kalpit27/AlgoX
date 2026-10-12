@@ -64,16 +64,41 @@ Unlike superficial animations or timer-polluted prototypes, **Algox** decouples 
 
 ---
 
-## 3. Screenshots
+## 3. Visual Gallery & Screenshots
 
-*(Screenshots can be added here by capturing views from the running application and placing them into an `assets/screenshots/` directory)*
+### Dashboard & Navigation
+![Algox Dashboard](assets/screenshots/dashboard.png)
 
-- **Dashboard / Home**: `![Algox Dashboard](assets/screenshots/dashboard.png)`
-- **Sorting Visualizer**: `![Sorting Visualizer](assets/screenshots/sorting.png)`
-- **Comparison Mode**: `![Sorting Comparison](assets/screenshots/comparison.png)`
-- **Searching Visualizer**: `![Searching Visualizer](assets/screenshots/searching.png)`
-- **Data Structures (BST)**: `![BST Visualizer](assets/screenshots/bst.png)`
-- **Graph Traversal**: `![Graph Visualizer](assets/screenshots/graph.png)`
+### Sorting Visualizer
+| Quick Sort Partitioning | Side-by-Side Comparison Mode |
+| :---: | :---: |
+| ![Quick Sort](assets/screenshots/sorting_quick.png) | ![Sorting Comparison](assets/screenshots/sorting_comparison.png) |
+
+| Bubble Sort Execution | Merge Sort Subarrays |
+| :---: | :---: |
+| ![Bubble Sort](assets/screenshots/sorting_bubble.png) | ![Merge Sort](assets/screenshots/sorting_merge.png) |
+
+### Searching Visualizer
+| Binary Search (Logarithmic Interval Halving) | Linear Search (Sequential Inspection) |
+| :---: | :---: |
+| ![Binary Search](assets/screenshots/searching_binary.png) | ![Linear Search](assets/screenshots/searching_linear.png) |
+
+### Data Structures Playground
+| Binary Search Tree (Hierarchical SVG Layout) | Stack (LIFO Vertical Representation) |
+| :---: | :---: |
+| ![Binary Search Tree](assets/screenshots/ds_bst.png) | ![Stack](assets/screenshots/ds_stack.png) |
+
+| Queue (FIFO Pipeline) | Singly Linked List (Pointer Connections) |
+| :---: | :---: |
+| ![Queue](assets/screenshots/ds_queue.png) | ![Linked List](assets/screenshots/ds_linked_list.png) |
+
+### Graph Visualizer & Traversal
+| Breadth-First Search (BFS Traversal & Queue Frontier) | Depth-First Search (DFS & Call Stack) |
+| :---: | :---: |
+| ![Graph BFS](assets/screenshots/graph_bfs.png) | ![Graph DFS](assets/screenshots/graph_dfs.png) |
+
+### Algorithm Reference & Master Big-O Matrix
+![Algorithm Reference](assets/screenshots/catalogue_reference.png)
 
 ---
 
